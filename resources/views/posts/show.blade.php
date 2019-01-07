@@ -3,6 +3,8 @@
 @section('content')
 <a href="/learnLaravel/public/posts" class="btn btn-info">Go Back</a>
     <h2>{{$post->title}}</h2>
+    <img style="width:100%" src="/learnLaravel/public/storage/cover_images/{{$post->cover_image}}">
+    <br><br>
     <div>
         {!!$post->body!!}
     </div>
