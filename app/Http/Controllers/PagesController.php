@@ -21,7 +21,8 @@ class PagesController extends Controller
         $data = array(
             'title' => 'Learn to code',
             'HTML' =>"Introduction to Basic HTML & HTML5",
-            'CSS' => "Introduction to Basic CSS"
+            'CSS' => "Introduction to Basic CSS",
+            'Visual'=>"Introduction to the Applied Visual Design Challenges"
         );
         return view('pages.services')->with($data);
     }
