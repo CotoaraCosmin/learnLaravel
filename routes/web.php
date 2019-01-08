@@ -11,13 +11,16 @@
 |
 */
 
+//Main Pages
 Route::get('/','PagesController@index');
 Route::get('/about','PagesController@about');
 Route::get('/services','PagesController@services');
 
 Route::resource('posts','PostsController');
-
-
 Auth::routes();
-
 Route::get('/dashboard', 'DashboardController@index');
+
+
+//Learn to code HTML & CSS
+Route::get('/services/htmlcss','HtmlcssController@htmlcss');
+Route::get('/services/css','HtmlcssController@css');
