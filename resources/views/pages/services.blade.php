@@ -2,11 +2,8 @@
 
 @section('content')
       <h2>{{$title}}</h2>
-      @if(count($services)>0)
            <ul class="list-group">
-         @foreach($services as $service)
-            <li class="list-group-item">{{$service}}</li>
-         @endforeach
+            <li class="list-group-item"><a href="/learnLaravel/public/services/htmlcss">{{$HTML}}</a></li>
+            <li class="list-group-item"><a href="/learnLaravel/public/services/css">{{$CSS}}</a></li>
            </ul>
-      @endif
 @endsection
