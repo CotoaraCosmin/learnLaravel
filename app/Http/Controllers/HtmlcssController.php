@@ -12,11 +12,15 @@ class HtmlcssController extends Controller
     }
     
     public function CSS(){
-        
         $data = array(
             'title' => 'Basic CSS',
             'options' =>['color','fonts','positioning','spacing','sizing','decorations','transitions']
         );
         return view('htmlcss.css')->with($data);
+    }
+
+    public function AppliedVisualDesign(){
+        $title = 'Applied Visual Design';
+        return view('htmlcss.visual')->with('title',$title);
     }
 }

@@ -24,3 +24,4 @@ Route::get('/dashboard', 'DashboardController@index');
 //Learn to code HTML & CSS
 Route::get('/services/htmlcss','HtmlcssController@htmlcss');
 Route::get('/services/css','HtmlcssController@css');
+Route::get('services/visual','HtmlcssController@AppliedVisualDesign');
