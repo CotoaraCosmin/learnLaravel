@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+<!--Applied Visual Design Page -->
 @section('content')
       <h2>{{$title}}</h2>
       <p>Visual Design in web development is a broad topic. It combines typography, color theory, graphics, animation, and page layout to help deliver a site's message. The definition of good design is a well-discussed subject, with many books on the theme.</p>
@@ -38,31 +38,26 @@
         <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/adjust-the-hue-of-a-color/" target="_blank">Adjust the Hue of a Color</a></li>
         <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/adjust-the-tone-of-a-color/" target="_blank">Adjust the Tone of a Color</a></li>
         <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/create-a-gradual-css-linear-gradient/" target="_blank">Create a Gradual CSS Linear Gradient</a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
-        <li class="list-group-item"><a href="" target="_blank"></a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/use-a-css-linear-gradient-to-create-a-striped-element/" target="_blank">Use a CSS Linear Gradient to Create a Striped Element</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/create-texture-by-adding-a-subtle-pattern-as-a-background-image/" target="_blank">Create Texture by Adding a Subtle Pattern as a Background Image</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/use-the-css-transform-scale-property-to-change-the-size-of-an-element/" target="_blank">Use the CSS Transform scale Property to Change the Size of an Element</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/use-the-css-transform-scale-property-to-scale-an-element-on-hover/" target="_blank">Use the CSS Transform scale Property to Scale an Element on Hover</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/use-the-css-transform-property-skewx-to-skew-an-element-along-the-x-axis/" target="_blank">Use the CSS Transform Property skewX to Skew an Element Along the X-Axis</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/use-the-css-transform-property-skewy-to-skew-an-element-along-the-y-axis/" target="_blank">Use the CSS Transform Property skewY to Skew an Element Along the Y-Axis</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/create-a-graphic-using-css/" target="_blank">Create a Graphic Using CSS</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/create-a-more-complex-shape-using-css-and-html/" target="_blank">Create a More Complex Shape Using CSS and HTML</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/learn-how-the-css-keyframes-and-animation-properties-work/" target="_blank">Learn How the CSS @keyframes and animation Properties Work</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/use-css-animation-to-change-the-hover-state-of-a-button/" target="_blank">Use CSS Animation to Change the Hover State of a Button</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/modify-fill-mode-of-an-animation/" target="_blank">Modify Fill Mode of an Animation</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/create-movement-using-css-animation/" target="_blank">Create Movement Using CSS Animation</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/create-visual-direction-by-fading-an-element-from-left-to-right/" target="_blank">Create Visual Direction by Fading an Element from Left to Right</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/animate-elements-continually-using-an-infinite-animation-count/" target="_blank">Animate Elements Continually Using an Infinite Animation Count</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/make-a-css-heartbeat-using-an-infinite-animation-count/" target="_blank">Make a CSS Heartbeat using an Infinite Animation Count</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/animate-elements-at-variable-rates/" target="_blank">Animate Elements at Variable Rates</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/animate-multiple-elements-at-variable-rates/" target="_blank">Animate Multiple Elements at Variable Rates</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/change-animation-timing-with-keywords/" target="_blank">Change Animation Timing with Keywords</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/learn-how-bezier-curves-work/" target="_blank">Learn How Bezier Curves Work</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/use-a-bezier-curve-to-move-a-graphic/" target="_blank">Use a Bezier Curve to Move a Graphic</a></li>
+        <li class="list-group-item"><a href="https://learn.freecodecamp.org/responsive-web-design/applied-visual-design/make-motion-more-natural-using-a-bezier-curve/" target="_blank">Make Motion More Natural Using a Bezier Curve</a></li>
       </ul>  
 @endsection      

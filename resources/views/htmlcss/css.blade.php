@@ -1,5 +1,5 @@
 @extends('layouts.app')
-
+<!--CSS Page-->
 @section('content')
       <h2>{{$title}}</h2>
       <p>Cascading Style Sheets (CSS) tell the browser how to display the text and other content that you write in HTML.</p>

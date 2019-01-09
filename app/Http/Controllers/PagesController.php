@@ -22,7 +22,11 @@ class PagesController extends Controller
             'title' => 'Learn to code',
             'HTML' =>"Introduction to Basic HTML & HTML5",
             'CSS' => "Introduction to Basic CSS",
-            'Visual'=>"Introduction to the Applied Visual Design Challenges"
+            'Visual'=>"Introduction to the Applied Visual Design",
+            'Applied'=>'Introduction to the Applied Accessibility',
+            'Responsive'=>'Introduction to the Responsive Web Design',
+            'Flexbox'=>'Introduction to the CSS Flexbox',
+            'Grid'=>'Introduction to the CSS Grid'
         );
         return view('pages.services')->with($data);
     }
