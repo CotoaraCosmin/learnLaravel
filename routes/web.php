@@ -25,3 +25,7 @@ Route::get('/dashboard', 'DashboardController@index');
 Route::get('/services/htmlcss','HtmlcssController@htmlcss');
 Route::get('/services/css','HtmlcssController@css');
 Route::get('services/visual','HtmlcssController@AppliedVisualDesign');
+Route::get('services/accessibility','HtmlcssController@AppliedAccessibility');
+Route::get('services/responsive','HtmlcssController@Responsive');
+Route::get('services/flexbox','HtmlcssController@Flexbox');
+Route::get('services/grid','HtmlcssController@Grid');
