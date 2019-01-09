@@ -14,18 +14,26 @@
 //Main Pages
 Route::get('/','PagesController@index');
 Route::get('/about','PagesController@about');
-Route::get('/services','PagesController@services');
+Route::get('/playground','PagesController@playground');
 
+//Blog and Login Routes
 Route::resource('posts','PostsController');
 Auth::routes();
 Route::get('/dashboard', 'DashboardController@index');
 
 
+//Playground
+Route::get('/playground/services','PlaygroundController@services');
+Route::get('/playground/vuejs','PlaygroundController@vuejs');
+
 //Learn to code HTML & CSS
 Route::get('/services/htmlcss','HtmlcssController@htmlcss');
 Route::get('/services/css','HtmlcssController@css');
-Route::get('services/visual','HtmlcssController@AppliedVisualDesign');
-Route::get('services/accessibility','HtmlcssController@AppliedAccessibility');
-Route::get('services/responsive','HtmlcssController@Responsive');
-Route::get('services/flexbox','HtmlcssController@Flexbox');
-Route::get('services/grid','HtmlcssController@Grid');
+Route::get('/services/visual','HtmlcssController@AppliedVisualDesign');
+Route::get('/services/accessibility','HtmlcssController@AppliedAccessibility');
+Route::get('/services/responsive','HtmlcssController@Responsive');
+Route::get('/services/flexbox','HtmlcssController@Flexbox');
+Route::get('/services/grid','HtmlcssController@Grid');
+
+//VueJs Apps
+Route::get('/playground/vueJs/appOne','VuejsController@appOne');

@@ -1,9 +1,6 @@
 <?php
-
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
-
 class PagesController extends Controller
 {
     public function index(){
@@ -11,25 +8,19 @@ class PagesController extends Controller
         // return view('pages.index',compact('title'));
         return view('pages.index')->with('title',$title);
     }
-
     public function about() {
         $title = 'About us';
         return view('pages.about')->with('title',$title);
     }
-
-    public function services() {
+    
+    public function playground(){
         $data = array(
-            'title' => 'Learn to code',
-            'HTML' =>"Introduction to Basic HTML & HTML5",
-            'CSS' => "Introduction to Basic CSS",
-            'Visual'=>"Introduction to the Applied Visual Design",
-            'Applied'=>'Introduction to the Applied Accessibility',
-            'Responsive'=>'Introduction to the Responsive Web Design',
-            'Flexbox'=>'Introduction to the CSS Flexbox',
-            'Grid'=>'Introduction to the CSS Grid'
+        'htmlcssTitle' => 'HTML & CSS stuff and small projects',
+        'htmlcss' =>'Basic HTML/HTML5 & CSS',
+        'vuejsTitle' => 'Vue.js',
+        'vuejsDescription' => 'Some Vue.js basics'
         );
-        return view('pages.services')->with($data);
+        return view('pages.playground')->with($data);
     }
-
    
 }

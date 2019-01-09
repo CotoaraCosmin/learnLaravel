@@ -22,7 +22,7 @@
                         <a class="nav-link" href="/learnLaravel/public/about">About</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link" href="/learnLaravel/public/services">Learn to Code</a>
+                        <a class="nav-link" href="/learnLaravel/public/playground">Playground</a>
                       </li>
                       <li class="nav-item">
                           <a class="nav-link" href="/learnLaravel/public/posts">Blog</a>
