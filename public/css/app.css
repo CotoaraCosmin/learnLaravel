@@ -10490,6 +10490,28 @@ a.text-dark:focus {
   }
 }
 
+.navbar-nav li:hover > ul.dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu > .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+}
+
+/* rotate caret on hover */
+
+.dropdown-menu > li > a:hover:after {
+  text-decoration: underline;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
