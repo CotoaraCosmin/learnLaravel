@@ -16,9 +16,8 @@
                                 <a class="nav-link" href="/learnLaravel/public/about">About</a>
                               </li>
                             <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle" href="/learnLaravel/public/playground" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                               Playground
-                              </a>
+                                <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Playground
+                                    <span class="caret"></span></button>
                               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="/learnLaravel/public/playground/services">HTML/HTML5 & CSS</a></li>
                                 <li><a class="dropdown-item" href="/learnLaravel/public/playground/vuejs">VueJs</a></li>
@@ -64,6 +63,7 @@
                           </a>
 
                           <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                              
                               <a class="dropdown-item" href="/learnLaravel/public/dashboard">Dashboard</a>
                               <a class="dropdown-item" href="{{ route('logout') }}"
                                  onclick="event.preventDefault();
