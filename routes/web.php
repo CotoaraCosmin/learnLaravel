@@ -24,6 +24,7 @@ Route::get('/dashboard', 'DashboardController@index');
 //Playground
 Route::get('/playground/services','PlaygroundController@services');
 Route::get('/playground/vuejs','PlaygroundController@vuejs');
+Route::get('/playground/api','PlaygroundController@api');
 
 //Learn to code HTML & CSS
 Route::get('/services/htmlcss','HtmlcssController@htmlcss');

@@ -22,6 +22,7 @@
                               <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                                 <li><a class="dropdown-item" href="/learnLaravel/public/playground/services">HTML/HTML5 & CSS</a></li>
                                 <li><a class="dropdown-item" href="/learnLaravel/public/playground/vuejs">VueJs</a></li>
+                                <li><a class="dropdown-item" href="/learnLaravel/public/playground/api">API using Resources</a></li>
                                 <li class="dropdown-submenu"><a class="dropdown-item dropdown-toggle" href="http://google.com">Google</a>
                                   <ul class="dropdown-menu">
                                     <li><a class="dropdown-item" href="#">Submenu</a></li>

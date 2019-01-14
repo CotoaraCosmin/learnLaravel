@@ -27,4 +27,8 @@ class PlaygroundController extends Controller
         );
         return view('pages.vuejs')->with($data);
     }
+
+    public function api(){
+        return view('pages.api');
+    }
 }
